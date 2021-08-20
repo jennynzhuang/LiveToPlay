@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block content %}
+  
+<br><div class="jumbotron">
+  <h1 class="display-3">Welcome To Live To Play!</h1>
+  <p class="lead">Create a Spotify playlist from any live performance, dj set, podcast, or live mix.</p>
+  <hr class="my-2">
+  <p>Just simply log in to Spotify and search for an URL. Our tool does all the rest!</p>
+  <p class="lead">
+    <a class="btn btn-outline-info" href="{{ url_for('login') }}" role="button">Log In To Spotify</a>
+  </p>
+</div>
+{% endblock content %}
